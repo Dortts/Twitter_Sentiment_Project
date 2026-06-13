@@ -35,8 +35,11 @@ These are the people who will use or benefit from the results of this model
 ### 1.5 Success Metric Selection
 
 Given the severe class imbalance in this dataset (Negative emotion = only ~6% of tweets), **accuracy alone is a misleading metric**. A model that predicts "No emotion" for every tweet would achieve ~60% accuracy while completely failing to detect any negative sentiment.
+
 **Macro Recall** | Primary | Ensures the minority Negative class is detected - most critical for the business |
+
 | **Macro F1** | Secondary | Balances precision and recall equally across all three classes |
+
 | **Accuracy** | Tertiary | Overall correctness, reported for context only |
 
 > **Target:** Macro Recall >= 0.60 and Macro F1 >= 0.65 on the held-out test set.
