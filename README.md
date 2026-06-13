@@ -97,14 +97,14 @@ Several visualizations were created to understand the data before modeling.
 ### Sentiment Distribution
 The sentiment distribution revealed a clear class imbalance, with neutral tweets dominating the dataset and negative tweets representing the smallest class.
 
-![alt text](image.png)
+![Sentiment Distribution](image.png)
 
 The dataset shows a clear class imbalance. The majority of tweets express positive sentiment toward the brands, while negative sentiment is significantly underrepresented.
 
 ### Brand Distribution
 Sentiment was analyzed across Apple and Google brands.
 
-![alt text](image-1.png)
+![Distribution of Sentiment Across Target Brands](image-1.png)
 
 ### Key Insights
 
@@ -116,7 +116,7 @@ Sentiment was analyzed across Apple and Google brands.
 ### Top Words Before Cleaning (Raw Text)
 Quick word frequency on raw unprocessed tweets - shows the noise problem
 
-![alt text](image-2.png)
+![Top 10 Most Frequent Words - Raw Text](image-2.png)
 
 ### Key EDA Insights
 
@@ -124,7 +124,7 @@ This frequency distribution reveals that raw, uncleaned text is dominated by str
 
 ### Top Words After Cleaning
 
-![alt text](image-3.png)
+![Top 10 Most Frequent Words - Cleaned Text](image-3.png)
 
 ### Insight
 
